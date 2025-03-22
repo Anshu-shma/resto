@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info{
+    max-width: 400px;
+}
+
+.contact-info h2{
+    color: #ff6347;
+    font-size: 26px;
+}
+
+.contact-info p{
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.contact-form{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.contact-form h2{
+    color: #ff6347;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button{
+    width: 100%;
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover{
+    background: #e5533d;
+}
+.back .btn{
+    width: 100%;
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.map{
+    text-align: center;
+    padding: 30px;
+    border: solid 2px #444;
+}
+
+.map h2{
+    color: #ff6347;
+    font-size: 26px;
+    margin-bottom: 15px;
+    border: solid 2px #444;
+}
+@media (max-width: 768px) {
+    .contact-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-form{
+        width: 90%;
+        margin: auto;
+    }
+    
+}

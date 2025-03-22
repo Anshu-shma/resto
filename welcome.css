@@ -1,0 +1,26 @@
+body{
+    font-family: Arial,  sans-serif;
+    text-align: center;
+    background-color: #479dff;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcome-container{
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn{
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
